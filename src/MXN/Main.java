@@ -27,7 +27,7 @@ package MXN;
                     number = number + money[i];
                     {
                     }
-                    System.out.println("Сумма: " + number);
+                    // System.out.println("Сумма: " + number);
                 }
 
                 int[] costs = new int[30];
@@ -71,7 +71,7 @@ package MXN;
 
                 char[] reverseFullName = {'n', 'a', 'v', 'I', ' ', 'v', 'o', 'n', 'a', 'v', 'I'};
                 for (int i = reverseFullName.length -1 ; i >= 0 ; i--) {
-                    System.out.println(reverseFullName[i] + " ");
+                    System.out.print(reverseFullName[i] + " ");
                 }
             }
         }
